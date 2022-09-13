@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Book My Show</title>
+		<!-- Bootstrap CDN Link -->
+		<link
+			rel="shortcut icon"
+			href="./images/favicon.png"
+			type="image/x-icon"
+		/>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+			crossorigin="anonymous"
+		/>
+		<!-- Custom Stylesheet Link -->
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+		<header>
+			<!-- Navar Starts -->
+			<nav class="navbar navbar-expand-lg fixed-top">
+				<div class="container">
+					<a class="navbar-brand" href="#"
+						><img src="./images/bookmyshow-logo.png"
+					/></a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarSupportedContent"
+						aria-controls="navbarSupportedContent"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div
+						class="collapse navbar-collapse"
+						id="navbarSupportedContent"
+					>
+						<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+							<li class="nav-item">
+								<a class="nav-link" aria-current="page" href="#"
+									>Home</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#in-cinemas-now"
+									>In Cinemas Now</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#trending-now"
+									>Trending Now</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#contact-section"
+									>Support</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">About</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Subscribe</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<!-- Navar Ended -->
+
+			<!-- Movie Slider Stars -->
+			<div
+				id="carouselExampleIndicators"
+				class="carousel slide container"
+				data-bs-ride="true"
+			>
+				<div class="carousel-indicators">
+					<button
+						type="button"
+						data-bs-target="#carouselExampleIndicators"
+						data-bs-slide-to="0"
+						class="active"
+						aria-current="true"
+						aria-label="Slide 1"
+					></button>
+					<button
+						type="button"
+						data-bs-target="#carouselExampleIndicators"
+						data-bs-slide-to="1"
+						aria-label="Slide 2"
+					></button>
+					<button
+						type="button"
+						data-bs-target="#carouselExampleIndicators"
+						data-bs-slide-to="2"
+						aria-label="Slide 3"
+					></button>
+				</div>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img
+							src="./images/slider-1.jpg"
+							class="d-block w-100"
+							alt="Movie Poster"
+						/>
+					</div>
+					<div class="carousel-item">
+						<img
+							src="./images/slider-2.jpg"
+							class="d-block w-100"
+							alt="Movie Poster"
+						/>
+					</div>
+					<div class="carousel-item">
+						<img
+							src="./images/slider-3.jpg"
+							class="d-block w-100"
+							alt="Movie Poster"
+						/>
+					</div>
+				</div>
+				<button
+					class="carousel-control-prev"
+					type="button"
+					data-bs-target="#carouselExampleIndicators"
+					data-bs-slide="prev"
+				>
+					<span
+						class="carousel-control-prev-icon"
+						aria-hidden="true"
+					></span>
+					<span class="visually-hidden">Previous</span>
+				</button>
+				<button
+					class="carousel-control-next"
+					type="button"
+					data-bs-target="#carouselExampleIndicators"
+					data-bs-slide="next"
+				>
+					<span
+						class="carousel-control-next-icon"
+						aria-hidden="true"
+					></span>
+					<span class="visually-hidden">Next</span>
+				</button>
+			</div>
+			<!-- Movie Slider Ended -->
+		</header>
+		<main>
+			<!-- Is Cinemas Now Starts -->
+			<div class="container mt-5" id="in-cinemas-now">
+				<h2 class="text-center mb-5">In Cinemas Now</h2>
+				<div class="row">
+					<div class="col">
+						<img
+							src="./images/in-cinemas.jpg"
+							alt="New Movie Poster"
+							class="w-100"
+						/>
+					</div>
+					<div class="col">
+						<h3 class="text-primary fw-bold">
+							Top Gun: Maverick (2022)
+						</h3>
+						<p>
+							Top Gun: Maverick is a 2022 American action drama
+							film directed by Joseph Kosinski. It is the sequel
+							to the 1986 film Top Gun and the second installment
+							in the Top Gun film series. Written by Ehren Kruger,
+							Eric Warren Singer, and Christopher McQuarrie, the
+							film is based on a story by Peter Craig and Justin
+							Marks.
+						</p>
+						<p>
+							Lorem ipsum dolor sit amet consectetur adipisicing
+							elit. Nulla ipsa odio provident vel quo facilis
+							impedit vitae rem eaque eligendi similique, nemo
+							reprehenderit error iure animi natus doloribus ex a.
+						</p>
+						<p><strong>Release date:</strong> May 27, 2022 (USA)</p>
+						<p><strong>Director:</strong> Joseph Kosinski</p>
+						<p><strong>Box office:</strong> 1.355 billion USD</p>
+						<p><strong>Ratings:</strong> ⭐⭐⭐⭐⭐</p>
+						<p><strong>Budget:</strong> 170 million USD</p>
+						<p>
+							<strong>Distributed by:</strong> Paramount Pictures
+						</p>
+						<p>
+							<strong>Music by:</strong> Harold Faltermeyer; Lady
+							Gaga; Hans Zimmer; Lorne Balfe
+						</p>
+						<hr />
+						<h3 class="fw-bold mt-5 text-success">
+							Running Successfully 🛩️
+						</h3>
+					</div>
+				</div>
+			</div>
+			<!-- Is Cinemas Now Ended -->
+
+			<!-- Trending Now -->
+			<div class="container mt-5" id="trending-now">
+				<h2 class="text-center mb-5">Trending Now</h2>
+				<div
+					class="movies row row-cols-1 row-cols-md-2 row-cols-lg-4 justify-content-center gap-3 mb-5"
+				>
+					<!-- Movie Card Comes from Dynamic Data -->
+				</div>
+			</div>
+			<!-- Modal Window Starts -->
+			<div class="modal-window container w-100"></div>
+			<!-- Modal Window Ended -->
+
+			<!-- Purchase Modal Window Starts -->
+			<div class="purchase-modal-window container w-100"></div>
+			<!-- Purchase Modal Window Ended-->
+
+			<!-- Contact Section Starts -->
+			<div id="contact-section" class="container">
+				<div class="mb-3">
+					<label for="exampleFormControlInput1" class="form-label"
+						>Name</label
+					>
+					<input
+						type="text"
+						class="form-control"
+						id="exampleFormControlInput1"
+						placeholder="Enter Your Name"
+					/>
+				</div>
+				<div class="mb-3">
+					<label for="exampleFormControlInput1" class="form-label"
+						>Email address</label
+					>
+					<input
+						type="email"
+						class="form-control"
+						id="exampleFormControlInput1"
+						placeholder="email@example.com"
+					/>
+				</div>
+				<div class="mb-3">
+					<label for="exampleFormControlTextarea1" class="form-label"
+						>Your Message</label
+					>
+					<textarea
+						class="form-control"
+						id="exampleFormControlTextarea1"
+						rows="3"
+						placeholder="Your Message Gose hare..."
+					></textarea>
+				</div>
+				<button class="btn btn-dark mb-3">Submit</button>
+			</div>
+			<!-- Contact Section Ended -->
+		</main>
+		<footer class="container text-center mb-5">
+			<p>
+				©2022, Book My Ticket. All rights reserved.
+				<span
+					>Designed By
+					<a
+						class="text-decoration-none fw-bold"
+						target="_blank"
+						href="https://facebook.com/masudranashawon786"
+						>Masud Rana Shawon</a
+					></span
+				>
+			</p>
+		</footer>
+		<!-- JavaScript Bundle with Popper -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+			crossorigin="anonymous"
+		></script>
+		<script src="./main.js"></script>
+	</body>
+</html>

@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;500;600;700&display=swap');
+
+body {
+	font-family: 'Overpass', sans-serif !important;
+	background-color: #eaeaea;
+}
+
+.navbar a:hover {
+	color: #dc3545;
+}
+
+.navbar {
+	background: rgba(256, 256, 256, 0.75);
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
+	z-index: 98;
+}
+
+.carousel {
+	margin-top: 56px;
+}
+
+.movie {
+	height: 550px;
+	width: 300px;
+	overflow: hidden;
+}
+
+.movie-poster {
+	width: 100%;
+	height: 450px;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.movie-poster img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: all 0.3s ease-in-out;
+}
+
+.movie:hover img {
+	transform: scale(1.1);
+}
+
+.movie .card-title,
+.movie .price,
+.movie .book-ticket,
+footer span a {
+	transition: all 0.3s ease-in-out;
+}
+
+.movie:hover .card-title {
+	color: rgb(13, 110, 253);
+}
+
+.movie:hover .price {
+	color: #212529 !important;
+}
+
+.movie:hover .book-ticket {
+	background-color: rgb(13, 110, 253);
+	border-color: rgb(13, 110, 253);
+}
+
+.modal-window {
+	max-width: 450px;
+	background-color: rgba(256, 256, 256, 0.9);
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) scale(0);
+	padding: 2rem;
+	border-radius: 1rem;
+	z-index: 99;
+	transition: all 0.3s cubic-bezier(1, 0, 0, 1);
+	opacity: 0;
+	box-shadow: 0 5rem 5rem rgba(0, 0, 0, 0.5);
+}
+
+.purchase-modal-window {
+	max-width: 800px;
+	background-color: rgba(256, 256, 256, 0.9);
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) scale(0);
+	padding: 2rem;
+	border-radius: 1rem;
+	z-index: 99;
+	transition: all 0.3s cubic-bezier(1, 0, 0, 1);
+	opacity: 0;
+	box-shadow: 0 5rem 5rem rgba(0, 0, 0, 0.5);
+}
+
+.modal-window .close-btn {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
+	font-size: 1.2rem;
+	transition: all 0.3s ease-in-out;
+	cursor: pointer;
+}
+
+.modal-window .close-btn:hover {
+	transform: rotate(180deg);
+}
+
+footer span {
+	display: block;
+}
+
+footer span a:hover {
+	color: #dc3545;
+}
